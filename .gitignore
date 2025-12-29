@@ -1,0 +1,29 @@
+# Build directories
+build/
+builddir/
+meson-logs/
+
+# Generated files
+*.o
+*.so
+*.a
+*.la
+
+# Editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.backup
+*.bak
+
+# Temporary files
+*.tmp
+*.log

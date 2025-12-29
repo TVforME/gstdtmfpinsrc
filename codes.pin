@@ -1,0 +1,22 @@
+; DTMF PIN Codes Configuration File
+; Format: pin=function_name
+; Lines starting with ; are comments
+; Maximum PIN length: 16 digits
+; Maximum number of PINs: 100
+
+; Example PIN codes for demonstration
+1234=unlock_front_door
+5678=activate_alarm  
+9999=emergency_shutdown
+1111=test_mode
+2468=guest_access
+1357=admin_mode
+*123=reset_system
+
+; Test DTMF # digit in PIN (now possible with semicolon comments!)
+#123=hash_test_pin
+
+; Test ABCD DTMF digits
+ABCD=test_abcd_mode
+9ABC=mixed_digit_test
+B123=extended_pin_test

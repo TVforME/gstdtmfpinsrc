@@ -1,0 +1,15 @@
+/* config.h.in - Template for config.h generation by Makefile */
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+/* Build information */
+#define BUILD_DATE "@BUILD_DATE@"
+#define BUILD_TIME "@BUILD_TIME@"
+#define VERSION "@VERSION@"
+#define PACKAGE "gstdtmfpinsrc"
+
+/* Features */
+#define HAVE_CONFIG_H 1
+
+#endif /* CONFIG_H */

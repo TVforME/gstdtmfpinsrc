@@ -1,0 +1,16 @@
+; DTMF PIN Configuration File
+; Format: PIN=function_name
+; Lines starting with # or ; are comments
+
+; Valid DTMF characters: 0-9, *, #, A, B, C, D
+
+; Test PIN configurations for test_dtmf.wav
+1234=open_door
+5678=unlock_garage
+9999=emergency_shutdown
+0000=admin_mode
+*A1B=special_code
+C23D=commented_example
+ABC#=hello_world
+
+; Add your PIN mappings below
